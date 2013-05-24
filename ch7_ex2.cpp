@@ -5,6 +5,7 @@ using namespace std;
 
 typedef unsigned int uint;
 
+/*
 bool prime(uint n) {
   if (n % 2 == 0)
     return false;
@@ -39,6 +40,33 @@ bool carm(uint n) {
   if (r && prime(n))
     r = false;
   return r;
+}
+*/
+
+uint values[] = {
+  561,
+  1105,
+  1729,
+  2465,
+  2821,
+  6601,
+  8911,
+  10585,
+  15841,
+  29341,
+  41041,
+  46657,
+  52633,
+  62745,
+  63973
+};
+
+bool carm(uint n) {
+  for (int i = 0; i < sizeof(values) / sizeof(uint); i++) {
+    if (values[i] == n)
+      return true;
+  }
+  return false;
 }
 
 int main() {
