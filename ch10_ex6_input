@@ -1,0 +1,46 @@
+6
+sugarloaf
+maracana
+copacabana
+ipanema
+corcovado
+lapa
+7
+ipanema copacabana
+copacabana sugarloaf
+ipanema sugarloaf
+maracana lapa
+sugarloaf maracana
+corcovado sugarloaf
+lapa corcovado
+5
+guanabarabay
+downtown
+botanicgarden
+colombo
+sambodromo
+4
+guanabarabay sambodromo
+downtown sambodromo
+sambodromo botanicgarden
+colombo sambodromo
+5
+guanabarabay
+downtown
+botanicgarden
+colombo
+sambodromo
+0
+6
+guanabarabay
+downtown
+botanicgarden
+colombo
+sambodromo
+unknown
+4
+guanabarabay colombo
+guanabarabay botanicgarden
+sambodromo downtown
+sambodromo unknown
+0
