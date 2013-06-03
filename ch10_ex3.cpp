@@ -80,7 +80,7 @@ int main() {
       cin >> f;
       s.push_back(f - 1);  //we start from 0
     }
-    vector<int>::iterator it = unique(s.begin(), s.end());
+    vector<int>::iterator it = unique(s.begin(), s.end()); //it says fire stations may overlap
     s.erase(it, s.end());
     string line;
     getline(cin, line); //skip trailing '\n'
