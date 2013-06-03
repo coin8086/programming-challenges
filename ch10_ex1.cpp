@@ -1,9 +1,9 @@
 #include <iostream>
+#include <iomanip>
 #include <vector>
 #include <map>
 #include <limits>
 #include <cmath>
-#include <cstdio>
 
 using namespace std;
 
@@ -108,9 +108,9 @@ int main() {
       g.push_back(Point(x, y));
     }
     if (i) {
-      printf("\n");
+      cout << endl;
     }
-    printf("%0.2f\n", mst(g));
+    cout << fixed << setprecision(2) << mst(g) << endl;
   }
   return 0;
 }
