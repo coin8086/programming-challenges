@@ -23,7 +23,7 @@ def test(test_file)
     end
   end
 
-  if !File.exist?(bin_file) || File.mtime(bin_file) < File.mtime(source_file)
+  if !File.exist?(bin_file) || (File.exist?(source_file) && File.mtime(bin_file) < File.mtime(source_file))
     if !system("g++ #{source_file} -o #{bin_file} -O2")
       raise "compiler error!"
     end
