@@ -17,7 +17,11 @@ inline void init() {
 /*
   D(N, i) is the increased pieces of land by introducing one edge
   from a newly added point to one of the existed N points. i is the
-  number of the existed point, ranging in [0, N - 1].
+  number of the existed point, ranging in [0, N - 1]. Point 0 is the 
+  point that is immediately adjacent to the newly added point. Point
+  1 is immediately adjacent to point 0, and point i to point i - 1.
+  The last point, N - 1, is also immediately adjacent to the newly 
+  added point.
   llt D(int N, int i) {
     return (llt)i * (N - i - 1) + 1;
   }
