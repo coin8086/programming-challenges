@@ -1,24 +1,30 @@
 #require 'ruby-debug'
 
-def test(test_file)
-  #debugger
-
+def file_names(test_file)
   if !(test_file =~ /\A(.+)_test/) #why /\A(.+)_test\Z/ doesn't work?
     raise "invalid file name!"
   end
 
-  bin_file = $1
-  source_file = "#{bin_file}.cpp"
-  input_file = "#{bin_file}_input"
-  output_file = "#{bin_file}_output"
-  result_file = "#{bin_file}_output_r"
+  return [
+    $1, #bin_file
+    "#{$1}.cpp", #source_file
+    "#{$1}_input", #input_file
+    "#{$1}_output", #output_file
+    "#{$1}_output_r" #result_file
+  ]
+end
+
+def test(test_file)
+  #debugger
+
+  bin_file, source_file, input_file, output_file, result_file = file_names(test_file)
 
   if block_given?
     if !File.exist?(input_file) || File.mtime(input_file) < File.mtime(test_file)
       yield(input_file, output_file)
     end
   else
-    if !File.exist?(input_file) || !File.exist?(output_file)
+    if !File.exist?(input_file)
       raise "missing files!"
     end
   end
@@ -37,5 +43,12 @@ def test(test_file)
     sleep(1)
   end
 
-  system "diff #{output_file} #{result_file}"
+  if File.exist?(output_file)
+    system "diff #{output_file} #{result_file}"
+  end
+end
+
+def check_result(test_file)
+  bin_file, source_file, input_file, output_file, result_file = file_names(test_file)
+  yield(result_file)
 end
