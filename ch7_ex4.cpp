@@ -10,24 +10,29 @@ typedef vector<pair<uint, uint> > PVec;
 
 PVec prime_factors(uint m) {
   PVec r;
-  uint i = 2;
-  uint c = 0;
-  while (m % i == 0) {
-    m /= i;
-    c++;
-  }
-  if (c)
-    r.push_back(make_pair(i, c));
-  i = 3;
-  while (i <= sqrt(m) + 1) {
-    c = 0;
+  if (m > 2) {
+    uint o = m;
+    uint i = 2;
+    uint c = 0;
     while (m % i == 0) {
       m /= i;
       c++;
     }
     if (c)
       r.push_back(make_pair(i, c));
-    i += 2;
+    i = 3;
+    while (i <= sqrt(m) + 1) {
+      c = 0;
+      while (m % i == 0) {
+        m /= i;
+        c++;
+      }
+      if (c)
+        r.push_back(make_pair(i, c));
+      i += 2;
+    }
+    if (m > 1 && m != o)
+      r.push_back(make_pair(m, 1));
   }
   return r;
 }
