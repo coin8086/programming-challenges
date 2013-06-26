@@ -2,7 +2,7 @@
 
 def file_names(test_file)
   if !(test_file =~ /\A(.+)_test/) #why /\A(.+)_test\Z/ doesn't work?
-    raise "invalid file name!"
+    raise "Invalid file name!"
   end
 
   return [
@@ -25,13 +25,13 @@ def test(test_file)
     end
   else
     if !File.exist?(input_file)
-      raise "missing files!"
+      raise "Missing files!"
     end
   end
 
   if !File.exist?(bin_file) || (File.exist?(source_file) && File.mtime(bin_file) < File.mtime(source_file))
     if !system("g++ #{source_file} -o #{bin_file} -O2")
-      raise "compiler error!"
+      raise "Compiler error!"
     end
     while !File.exist?(bin_file)
       sleep(1)
