@@ -1,3 +1,10 @@
+/***********************************************************
+ * ShellSort
+ * PC/UVa IDs: 110407/10152
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,3 +1,10 @@
+/***********************************************************
+ * Pairsumonious Numbers
+ * PC/UVa IDs: 110508/10202
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

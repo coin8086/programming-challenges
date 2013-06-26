@@ -1,3 +1,10 @@
+/***********************************************************
+ * The Tourist Guide
+ * PC/UVa IDs: 110903/10099
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <utility>

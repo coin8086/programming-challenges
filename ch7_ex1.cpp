@@ -1,3 +1,10 @@
+/***********************************************************
+ * Light, More Light
+ * PC/UVa IDs: 110701/10110
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <cmath>
 

@@ -1,3 +1,10 @@
+/***********************************************************
+ * How Many Pieces of Land?
+ * PC/UVa IDs: 110602/10213
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include "bigint.h"

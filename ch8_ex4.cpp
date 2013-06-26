@@ -1,3 +1,10 @@
+/***********************************************************
+ * Servicing Stations
+ * PC/UVa IDs: 110804/10160
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <map>

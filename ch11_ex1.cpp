@@ -1,3 +1,10 @@
+/***********************************************************
+ * Is Bigger Smarter?
+ * PC/UVa IDs: 111101/10131
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

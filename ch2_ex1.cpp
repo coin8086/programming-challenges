@@ -1,3 +1,10 @@
+/***********************************************************
+ * Jolly Jumpers
+ * PC/UVa IDs: 110201/10038
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

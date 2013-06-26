@@ -1,3 +1,10 @@
+/***********************************************************
+ * Vito's Family
+ * PC/UVa IDs: 110401/10041
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

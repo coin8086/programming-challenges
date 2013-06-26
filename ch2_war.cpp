@@ -1,3 +1,8 @@
+/***********************************************************
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #if !defined(NDEBUG) && !defined(DEBUG)
 #define NDEBUG
 #endif

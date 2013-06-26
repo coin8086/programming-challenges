@@ -1,3 +1,10 @@
+/***********************************************************
+ * Ones
+ * PC/UVa IDs: 110504/10127
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

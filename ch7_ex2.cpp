@@ -1,3 +1,10 @@
+/***********************************************************
+ * Carmichael Numbers
+ * PC/UVa IDs: 110702/10006
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <cmath>
 

@@ -1,3 +1,10 @@
+/***********************************************************
+ * Check the Check
+ * PC/UVa IDs: 110107/10196
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

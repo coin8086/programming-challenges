@@ -1,3 +1,10 @@
+/***********************************************************
+ * Self-describing Sequence
+ * PC/UVa IDs: 110607/10049
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

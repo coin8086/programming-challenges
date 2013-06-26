@@ -1,3 +1,10 @@
+/***********************************************************
+ * Marbles
+ * PC/UVa IDs: 110707/10090
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <cmath>
 

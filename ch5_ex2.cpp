@@ -1,3 +1,10 @@
+/***********************************************************
+ * Reverse and Add
+ * PC/UVa IDs: 110502/10018
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,10 @@
+/***********************************************************
+ * The 3n + 1 Problem
+ * PC/UVa IDs: 110101/100
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <vector>
 #include <iostream>
 

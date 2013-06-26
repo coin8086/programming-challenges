@@ -1,3 +1,10 @@
+/***********************************************************
+ * The Archeologist's Dilemma
+ * PC/UVa IDs: 110503/701
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <cmath>

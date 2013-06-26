@@ -1,3 +1,10 @@
+/***********************************************************
+ * The Priest Mathematician
+ * PC/UVa IDs: 110606/10254
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include "bigint.h"

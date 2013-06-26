@@ -1,3 +1,10 @@
+/***********************************************************
+ * Factovisors
+ * PC/UVa IDs: 110704/10139
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <utility>

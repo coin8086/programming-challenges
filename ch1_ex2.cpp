@@ -1,3 +1,10 @@
+/***********************************************************
+ * Minesweeper
+ * PC/UVa IDs: 110102/10189
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

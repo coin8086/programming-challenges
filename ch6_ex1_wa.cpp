@@ -1,3 +1,10 @@
+/***********************************************************
+ * How Many Fibs?
+ * PC/UVa IDs: 110601/10183
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <cmath>

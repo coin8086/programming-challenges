@@ -1,3 +1,10 @@
+/***********************************************************
+ * Primary Arithmetic
+ * PC/UVa IDs: 110501/10035
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,10 @@
+/***********************************************************
+ * Edit Step Ladders
+ * PC/UVa IDs: 110905/10029
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <map>

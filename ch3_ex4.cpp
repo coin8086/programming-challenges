@@ -1,3 +1,10 @@
+/***********************************************************
+ * Crypt Kicker II
+ * PC/UVa IDs: 110304/850
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <sstream>
 #include <string>

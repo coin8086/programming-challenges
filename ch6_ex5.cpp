@@ -1,3 +1,10 @@
+/***********************************************************
+ * Complete Tree Labeling
+ * PC/UVa IDs: 110605/10247
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <cstring>

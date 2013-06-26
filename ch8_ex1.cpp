@@ -1,3 +1,10 @@
+/***********************************************************
+ * Little Bishops
+ * PC/UVa IDs: 110801/861
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <utility>

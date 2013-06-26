@@ -1,3 +1,10 @@
+/***********************************************************
+ * Stacks of Flapjacks
+ * PC/UVa IDs: 110402/120
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <sstream>
 #include <vector>

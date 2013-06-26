@@ -1,3 +1,10 @@
+/***********************************************************
+ * Poker Hands
+ * PC/UVa IDs: 110202/10315
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <cassert>
 #include <iostream>
 #include <vector>

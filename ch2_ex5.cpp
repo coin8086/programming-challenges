@@ -1,3 +1,10 @@
+/***********************************************************
+ * Stack 'em Up
+ * PC/UVa IDs: 110205/10205
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <string>

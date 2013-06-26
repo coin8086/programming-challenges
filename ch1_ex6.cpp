@@ -1,3 +1,10 @@
+/***********************************************************
+ * Interpreter
+ * PC/UVa IDs: 110106/10033
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <string>

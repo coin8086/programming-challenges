@@ -1,3 +1,10 @@
+/***********************************************************
+ * Doublets
+ * PC/UVa IDs: 110307/10150
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <string>
 #include <vector>

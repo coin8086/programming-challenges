@@ -1,3 +1,10 @@
+/***********************************************************
+ * Summation of Four Primes
+ * PC/UVa IDs: 110705/10168
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 

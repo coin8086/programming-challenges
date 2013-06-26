@@ -1,3 +1,10 @@
+/***********************************************************
+ * A Multiplication Game
+ * PC/UVa IDs: 110505/847
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <cmath>
 

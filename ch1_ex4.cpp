@@ -1,3 +1,10 @@
+/***********************************************************
+ * LCD Display
+ * PC/UVa IDs: 110104/706
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

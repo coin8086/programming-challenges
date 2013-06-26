@@ -1,3 +1,10 @@
+/***********************************************************
+ * Cutting Sticks
+ * PC/UVa IDs: 111105/10003
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 #include <climits>

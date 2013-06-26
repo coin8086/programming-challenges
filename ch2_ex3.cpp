@@ -1,3 +1,10 @@
+/***********************************************************
+ * Hartals
+ * PC/UVa IDs: 110203/10050
+ * Author: Robert Zhang(louirobert@gmail.com)
+ * This program is distributed under GNU GPL.
+ **********************************************************/
+
 #include <iostream>
 #include <vector>
 
