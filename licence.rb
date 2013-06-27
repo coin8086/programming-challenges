@@ -39,6 +39,7 @@ problems = {
   'ch4_ex1' => {:title => 'Vito\'s Family', :pid => 'PC/UVa IDs: 110401/10041'},
   'ch4_ex2' => {:title => 'Stacks of Flapjacks', :pid => 'PC/UVa IDs: 110402/120'},
   'ch4_ex3' => {:title => 'Bridge', :pid => 'PC/UVa IDs: 110403/10037'},
+  'ch4_ex5' => {:title => 'Shoemaker\'s Problem', :pid => 'PC/UVa IDs: 110405/10026'},
   'ch4_ex7' => {:title => 'ShellSort', :pid => 'PC/UVa IDs: 110407/10152'},
   'ch5_ex1' => {:title => 'Primary Arithmetic', :pid => 'PC/UVa IDs: 110501/10035'},
   'ch5_ex2' => {:title => 'Reverse and Add', :pid => 'PC/UVa IDs: 110502/10018'},
