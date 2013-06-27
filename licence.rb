@@ -32,6 +32,7 @@ problems = {
   'ch2_ex3' => {:title => 'Hartals', :pid => 'PC/UVa IDs: 110203/10050'},
   'ch2_ex4' => {:title => 'Crypt Kicker', :pid => 'PC/UVa IDs: 110204/843'},
   'ch2_ex5' => {:title => 'Stack \'em Up', :pid => 'PC/UVa IDs: 110205/10205'},
+  'ch2_ex6' => {:title => 'Erdos Numbers', :pid => 'PC/UVa IDs: 110206/10044'},
   'ch3_ex2' => {:title => 'Where\'s Waldorf?', :pid => 'PC/UVa IDs: 110302/10010'},
   'ch3_ex3' => {:title => 'Common Permutation', :pid => 'PC/UVa IDs: 110303/10252'},
   'ch3_ex4' => {:title => 'Crypt Kicker II', :pid => 'PC/UVa IDs: 110304/850'},
