@@ -27,6 +27,7 @@ problems = {
   'ch1_ex4' => {:title => 'LCD Display', :pid => 'PC/UVa IDs: 110104/706'},
   'ch1_ex6' => {:title => 'Interpreter', :pid => 'PC/UVa IDs: 110106/10033'},
   'ch1_ex7' => {:title => 'Check the Check', :pid => 'PC/UVa IDs: 110107/10196'},
+  'ch1_ex8' => {:title => 'Australian Voting', :pid => 'PC/UVa IDs: 110108/10142'},
   'ch2_ex1' => {:title => 'Jolly Jumpers', :pid => 'PC/UVa IDs: 110201/10038'},
   'ch2_ex2' => {:title => 'Poker Hands', :pid => 'PC/UVa IDs: 110202/10315'},
   'ch2_ex3' => {:title => 'Hartals', :pid => 'PC/UVa IDs: 110203/10050'},
