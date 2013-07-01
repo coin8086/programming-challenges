@@ -74,6 +74,7 @@ problems = {
   'ch10_ex3' => {:title => 'Fire Station', :pid => 'PC/UVa IDs: 111003/10278'},
   'ch10_ex6' => {:title => 'Tourist Guide', :pid => 'PC/UVa IDs: 111006/10199'},
   'ch11_ex1' => {:title => 'Is Bigger Smarter?', :pid => 'PC/UVa IDs: 111101/10131'},
+  'ch11_ex2' => {:title => 'Distinct Subsequences', :pid => 'PC/UVa IDs: 111102/10069'},
   'ch11_ex3' => {:title => 'Weights and Measures', :pid => 'PC/UVa IDs: 111103/10154'},
   'ch11_ex5' => {:title => 'Cutting Sticks', :pid => 'PC/UVa IDs: 111105/10003'},
 }
