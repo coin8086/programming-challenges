@@ -65,7 +65,6 @@ Grid mazeToGrid(const Maze & m) {
     i = oi + 1;
     j = oj + 1;
   }
-  //printG(g);
   return g;
 }
 
@@ -81,7 +80,7 @@ void dfs(const Grid & g, const Point & v, const Point & s,
       dfs(g, n, s, visited, pred);
     }
     else if (n == s && pred[v] != s) {
-      pred[s] = v;
+      pred[s] = v; //A cycle is detected!
     }
   }
 }
@@ -93,6 +92,7 @@ vector<int> cycles(const Grid & g) {
     if (!visited.count(it->first)) {
       map<Point, Point> pred;
       dfs(g, it->first, it->first, visited, pred);
+      //If a start point has a predecessor, it means a cycle.
       if (pred.count(it->first)) {
         cycles.push_back(pred.size());
       }
