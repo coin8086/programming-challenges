@@ -62,7 +62,7 @@ public:
 
   //for priority queue
   bool operator <(const Board & b) const {
-    return score() < b.score();
+    return score() > b.score();
   }
 
   Moves valid_moves() const {
