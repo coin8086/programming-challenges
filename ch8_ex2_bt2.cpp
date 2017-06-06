@@ -71,7 +71,7 @@ public:
       State n = *this;
       n.s[4 * i + j + 1] = 0;
       n.s[4 * i + j] = s[4 * i + j + 1];
-      ret.push_back(Move(n, 'L'));
+      ret.push_back(Move(n, 'R'));
     }
     return ret;
   }
